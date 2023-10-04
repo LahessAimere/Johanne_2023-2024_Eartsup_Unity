@@ -14,7 +14,7 @@ public class ScriptableObjectInstantiate : MonoBehaviour
     {
         if(_scriptableToInstantiate is Weapon scriptableWeapon)
         {
-            scriptableWeapon.Attack();
+            //scriptableWeapon.Attack();
             Debug.Log("variable is weapon !");
         }
         _scriptableToInstantiate = Instantiate((ScriptableToInstantiate));
