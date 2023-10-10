@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 1504263401}
   - component: {fileID: 1504263402}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Instantiate Card
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -167,7 +167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce5ef2de33ebbdf4aab641df7aa2fd1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scriptableToInstantiate: {fileID: 0}
+  _scriptableToInstantiate: {fileID: 11400000, guid: 0bd1dce5fee0df643b02ebe050178746,
+    type: 2}
 --- !u!1 &1510611258
 GameObject:
   m_ObjectHideFlags: 0

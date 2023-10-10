@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa7352e3e9f7c3745abf2b958430ce37, type: 3}
-  m_Name: FiveOfClover
+  m_Name: FourOfClub
   m_EditorClassIdentifier: 
-  _cardValue: 3
+  _cardValue: 2
   _cardColor: 2

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa7352e3e9f7c3745abf2b958430ce37, type: 3}
-  m_Name: SixOfTile
+  m_Name: KIngOfClub
   m_EditorClassIdentifier: 
-  _cardValue: 4
+  _cardValue: 11
   _cardColor: 2

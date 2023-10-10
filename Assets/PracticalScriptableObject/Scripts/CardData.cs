@@ -7,36 +7,43 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "new_CardData", menuName = "ScriptableObjects/new CardData")]
 public class CardData : ScriptableObject
 {
-   private enum CardValue 
-   {
-       Two, 
-       Three, 
-       Four, 
-       Five, 
-       Six, 
-       Seven, 
-       Height,
-       Nine,
-       Ten,
-       Jack,
-       Queen,
-       King,
-       Ace 
-   }
-
-   private enum CardColor
+    [SerializeField] private Kind _cardValue;
+    [SerializeField] private Suit _cardColor; 
+    public Kind CardValue
     {
-        Clover,
-        Spade,
-        Tile,
-        Heart
+        get => _cardValue;
+        set => _cardValue = value;
+    } 
+    public Suit CardColor
+    {
+        get => _cardColor;
+        set => _cardColor = value;
     }
-   
-   [SerializeField] private CardValue _cardValue;
-   [SerializeField] private CardColor _cardColor;
-   
-   public override string ToString()
-   {
-       return _cardValue.ToString() + " " + _cardColor.ToString();
-   }
+
+    public enum Kind
+    {
+        Two,
+        Three,
+        Four,
+        Five,
+        Six,
+        Seven,
+        Height,
+        Nine,
+        Ten,
+        Jack,
+        Queen,
+        King,
+        Ace
+    }
+
+    public enum Suit
+    {
+        Clubs,
+        Diamonds,
+        Hearts,
+        Spades,
+    }
+    
+    
 }

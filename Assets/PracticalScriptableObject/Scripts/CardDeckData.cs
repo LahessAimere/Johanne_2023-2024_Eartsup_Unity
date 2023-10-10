@@ -1,10 +1,12 @@
+using System.Buffers;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "new_CardDeckData", menuName = "ScriptableObjects/new CardDeckData")]
+    
 public class CardDeckData : ScriptableObject
 {
-    [SerializeField] private CardData[] _cardDataArray; 
-    public CardData[] CardDataArray => _cardDataArray;
+    [SerializeField] private List<CardData> _cardDataList;
+    public List<CardData> CardDataList => _cardDataList;
 }
