@@ -316,8 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca4c6825219f314b97121d6558f839d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scriptableEventInt: {fileID: 11400000, guid: db4274bff1e1de74d8f4cdc3f268df7d,
-    type: 2}
+  scriptableEventInt: {fileID: 11400000, guid: db4274bff1e1de74d8f4cdc3f268df7d, type: 2}
 --- !u!114 &629020392
 MonoBehaviour:
   m_ObjectHideFlags: 0

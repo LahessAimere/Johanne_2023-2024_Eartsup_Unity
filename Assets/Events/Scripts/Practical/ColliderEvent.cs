@@ -1,17 +1,14 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(Collider))]
 public class ColliderEvent : MonoBehaviour
 {
-    [SerializeField] private UnityEvent _unityEvent;
+    [SerializeField] private UnityEvent unityEvent;
     private CharacterBehavior _characterBehavior;
     public void OnTriggerEnter(Collider other)
     {
-        _unityEvent?.Invoke();
+        unityEvent?.Invoke();
         Debug.Log("");
     }
 }

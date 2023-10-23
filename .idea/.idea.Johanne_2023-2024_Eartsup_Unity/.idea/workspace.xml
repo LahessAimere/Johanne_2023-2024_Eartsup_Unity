@@ -5,26 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="144a1520-677b-4178-af7d-8b383aa0ed12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Events.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Events/Input_HealthBar.inputactions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Events/Input_HealthBar.inputactions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Events/Scenes/TheoricalEventScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Events/Scenes/UI.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Events/ScriptableEvent.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Events/ScriptableEvent/Event.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Events/ScriptableEvent/Event.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Events/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Events/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Events/Sprites/Square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Events/Sprites/Square.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Events/Scenes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Events/Scenes/UI.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Events/Scenes/TheoricalEventScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scenes/TheoricalEventScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scenes/TheoricalEventScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/CharacterBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/CharacterBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/ColliderEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/ColliderEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/HealthBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/HealthBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/ScriptableEventInt.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/ScriptableEventInt.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/Listener.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/Listener/ScriptableEventListener.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/Listener/ScriptableEventListener.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalSelf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalSelf/CustomEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalSelf/CustomEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalTest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalTest/SignalEmitter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalTest/SignalEmitter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalTest/SignalReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalTest/SignalReceiver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Sprites/Square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Sprites/Square.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,29 +61,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Event",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.smartKeys_rider",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Event&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys_rider&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\johan\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\johan\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\johan\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\johan\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\johan\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\johan\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe" />
@@ -103,10 +111,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9888">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="9888" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -131,6 +139,9 @@
       <workItem from="1696839245609" duration="9071000" />
       <workItem from="1696936940762" duration="11630000" />
       <workItem from="1697011555476" duration="21645000" />
+      <workItem from="1697038392832" duration="243000" />
+      <workItem from="1698073076574" duration="1072000" />
+      <workItem from="1698074174741" duration="594000" />
     </task>
     <servers />
   </component>
@@ -148,14 +159,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/TheoricalEvent/Scripts/CharacterBehavior.cs</url>
           <line>42</line>
-          <properties documentPath="C:\Users\johan\Documents\Unity\Cours Gaetan\Johanne_2023-2024_Eartsup_Unity\Assets\TheoricalEvent\Scripts\CharacterBehavior.cs" initialLine="42" containingFunctionPresentation="Method 'LoseHealth'">
-            <startOffsets>
-              <option value="911" />
-            </startOffsets>
-            <endOffsets>
-              <option value="956" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\johan\Documents\Unity\Cours Gaetan\Johanne_2023-2024_Eartsup_Unity\Assets\TheoricalEvent\Scripts\CharacterBehavior.cs" initialLine="42" containingFunctionPresentation="Method 'LoseHealth'" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
