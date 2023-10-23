@@ -6,33 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="144a1520-677b-4178-af7d-8b383aa0ed12" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scenes/TheoricalEventScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scenes/TheoricalEventScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/CharacterBehavior.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/CharacterBehavior.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/ColliderEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/ColliderEvent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/HealthBar.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/HealthBar.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/ScriptableEventInt.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Pratical/ScriptableEventInt.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/Listener.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/Listener/ScriptableEventListener.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/Listener/ScriptableEventListener.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalSelf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalSelf/CustomEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalSelf/CustomEvent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalTest.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalTest/SignalEmitter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalTest/SignalEmitter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalTest/SignalReceiver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Théorical/SignalTest/SignalReceiver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Sprites/Square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Sprites/Square.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scenes/UI.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Events/Scenes/UI.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/CharacterBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/CharacterBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/HealthBar.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +118,8 @@
       <workItem from="1697038392832" duration="243000" />
       <workItem from="1698073076574" duration="1072000" />
       <workItem from="1698074174741" duration="594000" />
+      <workItem from="1698074919148" duration="2209000" />
+      <workItem from="1698081524164" duration="722000" />
     </task>
     <servers />
   </component>

@@ -4,8 +4,8 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
 public class HealthBar : MonoBehaviour
 { 
-    private CharacterBehavior _characterBehavior;
     [SerializeField] private ScriptableEventInt scriptableEventInt;
+    private CharacterBehavior _characterBehavior;
     private Image _image;
 
     private void Awake()

@@ -4,9 +4,9 @@ using UnityEngine.InputSystem;
 
 public class CharacterBehavior : MonoBehaviour
 {
-    private int _health = 100; 
     [SerializeField] private ScriptableEventInt healthChangedEventInt;
-
+    private int _health = 100; 
+    
     private int Health
     {
         get => _health;
