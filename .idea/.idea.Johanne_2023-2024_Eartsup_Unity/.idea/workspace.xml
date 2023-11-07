@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="144a1520-677b-4178-af7d-8b383aa0ed12" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scenes/UI.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Events/Scenes/UI.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/CharacterBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/CharacterBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/HealthBar.cs" afterDir="false" />
-    </list>
+    <list default="true" id="144a1520-677b-4178-af7d-8b383aa0ed12" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,6 +115,10 @@
       <workItem from="1698074174741" duration="594000" />
       <workItem from="1698074919148" duration="2209000" />
       <workItem from="1698081524164" duration="722000" />
+      <workItem from="1698328879460" duration="312000" />
+      <workItem from="1698329221168" duration="18000" />
+      <workItem from="1698329257498" duration="631000" />
+      <workItem from="1699358872264" duration="593000" />
     </task>
     <servers />
   </component>

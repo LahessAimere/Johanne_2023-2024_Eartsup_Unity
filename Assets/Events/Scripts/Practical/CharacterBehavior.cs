@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 
 public class CharacterBehavior : MonoBehaviour
 {
-    [SerializeField] private ScriptableEventInt healthChangedEventInt;
+    [SerializeField] private ScriptableEventInt _healthChangedEventInt;
     private int _health = 100; 
     
     private int Health
@@ -13,7 +14,7 @@ public class CharacterBehavior : MonoBehaviour
         set
         {
             _health = value;
-            healthChangedEventInt.Event?.Invoke(_health);
+            _healthChangedEventInt.Event?.Invoke(_health);
         }
     }
 
@@ -28,6 +29,6 @@ public class CharacterBehavior : MonoBehaviour
     public void LoseHealth()
     {
         _health -= 10;
-        healthChangedEventInt.Event.Invoke(_health);
+        _healthChangedEventInt.Event.Invoke(_health);
     }
 }

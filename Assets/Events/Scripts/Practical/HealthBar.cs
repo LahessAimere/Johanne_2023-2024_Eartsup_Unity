@@ -1,17 +1,18 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Image))]
 public class HealthBar : MonoBehaviour
 { 
-    [SerializeField] private ScriptableEventInt scriptableEventInt;
+    [SerializeField] private ScriptableEventInt _scriptableEventInt;
     private CharacterBehavior _characterBehavior;
     private Image _image;
 
     private void Awake()
     {
         _image = GetComponent<Image>();
-      scriptableEventInt.Event += ChangedHealthBar;
+      _scriptableEventInt.Event += ChangedHealthBar;
     }
 
     public void OnCharacterEnabled()
