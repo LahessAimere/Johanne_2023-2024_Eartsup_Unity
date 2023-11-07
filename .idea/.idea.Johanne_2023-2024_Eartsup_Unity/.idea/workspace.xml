@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="144a1520-677b-4178-af7d-8b383aa0ed12" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/Scripts/CardData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PracticalScriptableObject/Scripts/CardData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/Scripts/RandomSevenCards.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PracticalScriptableObject/Scripts/RandomSevenCards.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheoreticalScriptableObject/Scripts/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TheoreticalScriptableObject/Scripts/Weapon.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +110,9 @@
       <workItem from="1696839245609" duration="9071000" />
       <workItem from="1696936940762" duration="11630000" />
       <workItem from="1697011555476" duration="1291000" />
+      <workItem from="1699355559956" duration="717000" />
+      <workItem from="1699357463691" duration="20000" />
+      <workItem from="1699358145673" duration="133000" />
     </task>
     <servers />
   </component>

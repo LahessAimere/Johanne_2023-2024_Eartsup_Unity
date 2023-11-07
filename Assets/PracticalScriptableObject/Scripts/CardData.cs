@@ -44,6 +44,4 @@ public class CardData : ScriptableObject
         Hearts,
         Spades,
     }
-    
-    
 }
