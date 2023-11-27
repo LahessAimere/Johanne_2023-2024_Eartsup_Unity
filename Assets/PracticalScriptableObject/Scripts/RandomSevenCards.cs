@@ -1,18 +1,14 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using Unity.VisualScripting;
-using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class RandomSevenCards : MonoBehaviour
 {
-    [SerializeField] private CardDeckData _cardDeckData;
     [SerializeField] private List<CardData> _cardDataList;
     private void Start()
     {
+        _cardDataList = new List<CardData>();
         ChooseDeck();
     }
     private void ChooseDeck()
@@ -22,7 +18,11 @@ public class RandomSevenCards : MonoBehaviour
         {
             foreach (CardData.Suit suit in Enum.GetValues(typeof(CardData.Suit)))
             {
-                _cardDataList.Add(new CardData {CardValue = kind, CardColor = suit});
+                CardData cardData = ScriptableObject.CreateInstance<CardData>();
+                cardData.CardValue = kind;
+                cardData.CardColor = suit;
+
+                _cardDataList.Add(cardData);
             }
         }
         

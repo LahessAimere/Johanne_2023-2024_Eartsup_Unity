@@ -1,14 +1,10 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.Collections;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "new_CardData", menuName = "ScriptableObjects/new CardData")]
 public class CardData : ScriptableObject
 {
-    [SerializeField] private Kind _cardValue;
-    [SerializeField] private Suit _cardColor; 
+    private Kind _cardValue;
+    private Suit _cardColor; 
     public Kind CardValue
     {
         get => _cardValue;
