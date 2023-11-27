@@ -1,26 +1,23 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Net.Mime;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class OptionsSynchronisationText : MonoBehaviour
 {
-    public Toggle toggle;
-    public Text statusText;
+    [FormerlySerializedAs("toggle")] public Toggle Toggle;
+    [FormerlySerializedAs("statusText")] public Text StatusText;
 
     private void Update()
     {
-        if (toggle != null && statusText != null)
+        if (Toggle != null && StatusText != null)
         {
-            if (toggle.isOn)
+            if (Toggle.isOn)
             {
-                statusText.text = "Enable";
+                StatusText.text = "Enable";
             }
             else
             {
-                statusText.text = "Disable";
+                StatusText.text = "Disable";
             }
         }
     }

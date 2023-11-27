@@ -1,35 +1,25 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using JetBrains.Annotations;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.EventSystems;
-using UnityEngine.InputSystem;
-using UnityEngine.UI;
+using UnityEngine.Serialization;
 
 public class ScrollNavigationSystem : MonoBehaviour
 {
-    private GameObject selectedObject;
-    public RectTransform content;
-    public float scrollSpeed = 100f;
+    private GameObject _selectedObject;
+    [FormerlySerializedAs("content")] public RectTransform Content;
+    [FormerlySerializedAs("scrollSpeed")] public float ScrollSpeed = 100f;
 
     void Update()
     {
         // Récupérez l'objet actuellement sélectionné
-        selectedObject = EventSystem.current.currentSelectedGameObject;
+        _selectedObject = EventSystem.current.currentSelectedGameObject;
         
-        if (selectedObject != null)
+        if (_selectedObject != null)
         {
-            Debug.Log("Objet sélectionné : " + selectedObject.name);
-            
-            if (selectedObject.transform.IsChildOf(content))
+            if (_selectedObject.transform.IsChildOf(Content))
             {
-                float targetPositionY = -selectedObject.transform.localPosition.y;
-
+                float targetPositionY = -_selectedObject.transform.localPosition.y;
                 
-                content.localPosition = Vector3.Lerp(content.localPosition, new Vector3(content.localPosition.x, targetPositionY - 30, content.localPosition.z), Time.deltaTime * scrollSpeed);
+                Content.localPosition = Vector3.Lerp(Content.localPosition, new Vector3(Content.localPosition.x, targetPositionY - 30, Content.localPosition.z), Time.deltaTime * ScrollSpeed);
             }
         }
     }
