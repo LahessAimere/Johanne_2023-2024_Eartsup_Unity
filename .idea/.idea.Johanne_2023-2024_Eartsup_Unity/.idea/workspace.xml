@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="144a1520-677b-4178-af7d-8b383aa0ed12" name="Changes" comment="" />
+    <list default="true" id="144a1520-677b-4178-af7d-8b383aa0ed12" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Input_HealthBar.inputactions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Input_HealthBar.inputactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scenes/TheoreticalEventScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Events/Scenes/TheoreticalEventScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scenes/UI.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Events/Scenes/UI.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/ScriptableEvent.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/ScriptableEvent/Event.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/ScriptableEvent/Event.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/CharacterBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/CharacterBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/ColliderEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/ColliderEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/HealthBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/HealthBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/ScriptableEventInt.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/ScriptableEventInt.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/Listener.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/Listener/ScriptableEventListener.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/Listener/ScriptableEventListener.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalSelf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalSelf/CustomEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalSelf/CustomEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalTest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalTest/SignalEmitter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalTest/SignalEmitter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalTest/SignalReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalTest/SignalReceiver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,12 +45,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/TheoricalEvent/Scripts/CharacterBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheoricalEvent/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheoricalEvent/Scripts/ScriptableEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheoricalEvent/Scripts/ScriptableEventListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheoricalEvent/Scripts/SignalEmitter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheoricalEvent/Scripts/SignalReceiver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Events/Scripts/TheoricalInput/ScriptableEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Events/Scripts/TheoricalInput/ScriptableEventIntListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Events/Scripts/TheoricalInput/ScriptableInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Events/Scripts/TheoricalInput/ScriptableInputListener.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,7 +67,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Event&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;InputSystem&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -119,6 +148,7 @@
       <workItem from="1698329221168" duration="18000" />
       <workItem from="1698329257498" duration="631000" />
       <workItem from="1699358872264" duration="593000" />
+      <workItem from="1701256977569" duration="7552000" />
     </task>
     <servers />
   </component>
