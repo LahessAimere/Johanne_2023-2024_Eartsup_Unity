@@ -6,34 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="144a1520-677b-4178-af7d-8b383aa0ed12" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Input_HealthBar.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Input_HealthBar.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scenes/TheoreticalEventScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Events/Scenes/TheoreticalEventScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scenes/UI.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Events/Scenes/UI.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/ScriptableEvent.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/ScriptableEvent/Event.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/ScriptableEvent/Event.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/CharacterBehavior.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/CharacterBehavior.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/ColliderEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/ColliderEvent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/HealthBar.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/HealthBar.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/ScriptableEventInt.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Practical/ScriptableEventInt.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/Listener.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/Listener/ScriptableEventListener.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/Listener/ScriptableEventListener.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalSelf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalSelf/CustomEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalSelf/CustomEvent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalTest.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalTest/SignalEmitter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalTest/SignalEmitter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalTest/SignalReceiver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Scripts/Theoretical/SignalTest/SignalReceiver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/InputActionsSystem.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/InputActionsSystem.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/InputActionsSystem.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/InputActionsSystem.inputactions.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scene/PraticalInputSystem.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scene/PraticalInputSystem.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Theorical Input System &amp; Events/Scenes/UI.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Theorical Input System &amp; Events/Scenes/UI.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,6 +126,8 @@
       <workItem from="1698329257498" duration="631000" />
       <workItem from="1699358872264" duration="593000" />
       <workItem from="1701256977569" duration="7552000" />
+      <workItem from="1702287096698" duration="3644000" />
+      <workItem from="1702293040401" duration="1274000" />
     </task>
     <servers />
   </component>
