@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 2104230252}
   - component: {fileID: 2104230251}
   m_Layer: 0
-  m_Name: SceneComponent
+  m_Name: DisplayCustomEditorComponent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e6ae390534a3d41aaa60777352d6d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scene: {fileID: 102900000, guid: b0c7149171e67da408f8c2e0884e1130, type: 3}
+  _scene: 0
 --- !u!4 &2104230252
 Transform:
   m_ObjectHideFlags: 0
