@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TheoricalEditor.unity
+    path: Assets/TheoricalEditor/Scenes/TheoricalEditorScene.unity
     guid: b0c7149171e67da408f8c2e0884e1130
   m_configObjects: {}
