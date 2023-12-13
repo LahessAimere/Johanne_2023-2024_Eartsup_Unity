@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
 
 
-public class CharacterBehavior : MonoBehaviour
+public class CharacterBehaviorEvent : MonoBehaviour
 {
     [SerializeField] private ScriptableEventInt _onHealthChangedScriptableEventInt;
     
