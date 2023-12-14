@@ -1,12 +1,11 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.Serialization;
 
 public class ScrollNavigationSystem : MonoBehaviour
 {
     private GameObject _selectedObject;
-    [FormerlySerializedAs("content")] public RectTransform Content;
-    [FormerlySerializedAs("scrollSpeed")] public float ScrollSpeed = 100f;
+    private RectTransform _rectTransform;
+    private float _scrollSpeed = 100f;
 
     void Update()
     {
@@ -15,11 +14,11 @@ public class ScrollNavigationSystem : MonoBehaviour
         
         if (_selectedObject != null)
         {
-            if (_selectedObject.transform.IsChildOf(Content))
+            if (_selectedObject.transform.IsChildOf(_rectTransform))
             {
                 float targetPositionY = -_selectedObject.transform.localPosition.y;
                 
-                Content.localPosition = Vector3.Lerp(Content.localPosition, new Vector3(Content.localPosition.x, targetPositionY - 30, Content.localPosition.z), Time.deltaTime * ScrollSpeed);
+                _rectTransform.localPosition = Vector3.Lerp(_rectTransform.localPosition, new Vector3(_rectTransform.localPosition.x, targetPositionY - 30, _rectTransform.localPosition.z), Time.deltaTime * _scrollSpeed);
             }
         }
     }

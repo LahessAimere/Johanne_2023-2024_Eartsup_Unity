@@ -1,12 +1,11 @@
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class OptionsVolumeSound : MonoBehaviour
 {
-   [FormerlySerializedAs("audioSource")] [SerializeField] private AudioSource _audioSource;
-   [FormerlySerializedAs("volumeSlider")] [SerializeField] private Slider _volumeSlider;
-   [FormerlySerializedAs("maxVolumePercentage")] public float MaxVolumePercentage = 0.1f;
+   [SerializeField] private AudioSource _audioSource;
+   [SerializeField] private Slider _volumeSlider;
+   private float _maxVolumePercentage = 0.1f;
 
    private void Start()
    {
@@ -14,9 +13,9 @@ public class OptionsVolumeSound : MonoBehaviour
       _volumeSlider.onValueChanged.AddListener(OnSliderValueChanged);
    }
    
-   void OnSliderValueChanged(float value)
+   void OnSliderValueChanged(float slideCursorValue)
    {
-      float clampedVolume = Mathf.Clamp(value, 0f, MaxVolumePercentage);
+      float clampedVolume = Mathf.Clamp(slideCursorValue, 0f, _maxVolumePercentage);
       
       _audioSource.volume = clampedVolume;
    }
