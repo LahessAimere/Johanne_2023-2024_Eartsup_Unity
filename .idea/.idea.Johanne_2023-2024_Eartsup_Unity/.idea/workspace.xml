@@ -6,9 +6,121 @@
   <component name="ChangeListManager">
     <list default="true" id="144a1520-677b-4178-af7d-8b383aa0ed12" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/AceOfClub.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/AceOfClub.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/FiveOfClub.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/FiveOfClub.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/FourOfClub.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/FourOfClub.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/HeightOfClub.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/HeightOfClub.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/JackOfClub.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/JackOfClub.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/KIngOfClub.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/KIngOfClub.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/NineOfClub.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/NineOfClub.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/QueenOfClub.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/QueenOfClub.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/SevenOfClub.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/SevenOfClub.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/SixOfClub.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/SixOfClub.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/TenOfClub.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/TenOfClub.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/ThreeOfClub.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/ThreeOfClub.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/TwoOfClub.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Clubs/TwoOfClub.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/AceOfDiamond.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/AceOfDiamond.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/FiveOfDiamond.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/FiveOfDiamond.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/FourOfDiamond.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/FourOfDiamond.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/HeightOfDiamond.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/HeightOfDiamond.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/JackOfDiamond.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/JackOfDiamond.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/KIngOfDiamond.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/KIngOfDiamond.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/NineOfDiamond.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/NineOfDiamond.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/QueenOfDiamond.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/QueenOfDiamond.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/SevenOfDiamond.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/SevenOfDiamond.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/SixOfDiamond.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/SixOfDiamond.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/TenOfDiamond.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/TenOfDiamond.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/ThreeOfDiamond.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/ThreeOfDiamond.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/TwoOfDiamond.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Diamonds/TwoOfDiamond.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/AceOfHeart.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/AceOfHeart.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/FiveOfHeart.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/FiveOfHeart.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/FourOfHeart.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/FourOfHeart.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/HeightOfHeart.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/HeightOfHeart.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/JackOfHeart.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/JackOfHeart.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/KIngOfHeart.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/KIngOfHeart.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/NineOfHeart.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/NineOfHeart.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/QueenOfHeart.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/QueenOfHeart.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/SevenOfHeart.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/SevenOfHeart.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/SixOfHeart.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/SixOfHeart.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/TenOfHeart.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/TenOfHeart.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/ThreeOfHeart.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/ThreeOfHeart.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/TwoOfHeart.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Hearts/TwoOfHeart.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/AceOfSpade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/AceOfSpade.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/FiveOfSpade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/FiveOfSpade.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/FourOfSpade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/FourOfSpade.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/HeightOfSpade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/HeightOfSpade.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/JackOfSpade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/JackOfSpade.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/KIngOfSpade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/KIngOfSpade.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/NineOfSpade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/NineOfSpade.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/QueenOfSpade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/QueenOfSpade.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/SevenOfSpade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/SevenOfSpade.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/SixOfSpade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/SixOfSpade.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/TenOfSpade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/TenOfSpade.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/ThreeOfSpade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/ThreeOfSpade.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/TwoOfSpade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDatas/Cards/Spades/TwoOfSpade.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDeckDatas/new_CardDeckData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PracticalScriptableObject/CardDeckDatas/new_CardDeckData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/Scenes/A deck of Seven.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PracticalScriptableObject/Scenes/A deck of Seven.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/Scripts/CardData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PracticalScriptableObject/Scripts/CardData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/Scripts/CardDeckData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PracticalScriptableObject/Scripts/CardDeckData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/Scripts/CardDeckData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PracticalScriptableObject/Scripts/CardDeckData.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PracticalScriptableObject/Scripts/RandomSevenCards.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PracticalScriptableObject/Scripts/RandomSevenCards.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +132,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Desktop/Mathys_E-artsup-2rdYear-Scriptable-Objects/Assets/ScriptableObject/Exo/Scripts/GenerateCards.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PracticalScriptableObject/Scripts/CardDeckData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PracticalScriptableObject/Scripts/RandomSevenCards.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -114,6 +228,8 @@
       <workItem from="1699355559956" duration="717000" />
       <workItem from="1699357463691" duration="20000" />
       <workItem from="1699358145673" duration="133000" />
+      <workItem from="1702560292256" duration="75000" />
+      <workItem from="1702560379994" duration="8716000" />
     </task>
     <servers />
   </component>
