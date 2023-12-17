@@ -3309,8 +3309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df354fba751223b43a9fd2244985f2d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: {fileID: 2045173188}
-  ScrollSpeed: 10
+  _rectTransformContent: {fileID: 2045173188}
 --- !u!1 &1222614577
 GameObject:
   m_ObjectHideFlags: 0
@@ -4518,8 +4517,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6592add4ce6fda8438a55660a65ea0d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Toggle: {fileID: 138757773}
-  StatusText: {fileID: 1086838520}
 --- !u!114 &1788265815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4534,7 +4531,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 2040946842}
   _volumeSlider: {fileID: 901233572}
-  MaxVolumePercentage: 0.1
 --- !u!1 &1804475090
 GameObject:
   m_ObjectHideFlags: 0

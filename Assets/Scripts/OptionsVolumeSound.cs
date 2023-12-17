@@ -13,7 +13,7 @@ public class OptionsVolumeSound : MonoBehaviour
       _volumeSlider.onValueChanged.AddListener(OnSliderValueChanged);
    }
    
-   void OnSliderValueChanged(float slideCursorValue)
+   private void OnSliderValueChanged(float slideCursorValue)
    {
       float clampedVolume = Mathf.Clamp(slideCursorValue, 0f, _maxVolumePercentage);
       
