@@ -123,6 +123,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &106981898 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3161995269764466847, guid: 42c61807ea7bb704da7b28cf618f4da6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1897251841}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &284439674 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1377421253604032259, guid: 42c61807ea7bb704da7b28cf618f4da6,
@@ -287,10 +299,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  rotationSpeed: 100
   _menu: {fileID: 1789041398}
   _bulletPrefab: {fileID: 5697887237834026026, guid: f918ffe18b751854fa75e7ff92c89d5a,
     type: 3}
+  rotationSpeed: 100
 --- !u!1 &584453634
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,6 +513,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &978738148 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2500799680692714851, guid: 42c61807ea7bb704da7b28cf618f4da6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1897251841}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1023355360
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,6 +778,16 @@ PrefabInstance:
       propertyPath: _rectTransformContent
       value: 
       objectReference: {fileID: 284439674}
+    - target: {fileID: 8734088635520617966, guid: 42c61807ea7bb704da7b28cf618f4da6,
+        type: 3}
+      propertyPath: _toggle
+      value: 
+      objectReference: {fileID: 106981898}
+    - target: {fileID: 8734088635520617966, guid: 42c61807ea7bb704da7b28cf618f4da6,
+        type: 3}
+      propertyPath: _statusText
+      value: 
+      objectReference: {fileID: 978738148}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

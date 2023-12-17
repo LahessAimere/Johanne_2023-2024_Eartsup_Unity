@@ -4,12 +4,27 @@ using UnityEngine.EventSystems;
 public class ScrollNavigationSystem : MonoBehaviour
 {
     [SerializeField] private RectTransform _rectTransformContent;
+    private InputActionsSystem _controls;
     private GameObject _selectedObject;
     private float _scrollSpeed = 100f;
 
-    private void Update()
+    private void OnEnable()
     {
-        // Récupérez l'objet actuellement sélectionné
+        _controls.UI.Navigation.Enable();
+    }
+    private void OnDisable()
+    {
+        _controls.UI.Navigation.Disable();
+    }
+
+    private void Awake()
+    {
+        _controls = new InputActionsSystem();
+        _controls.UI.Navigation.performed += ct => OnNavigation();
+    }
+
+    private void OnNavigation()
+    {
         _selectedObject = EventSystem.current.currentSelectedGameObject;
         
         if (_selectedObject != null)
