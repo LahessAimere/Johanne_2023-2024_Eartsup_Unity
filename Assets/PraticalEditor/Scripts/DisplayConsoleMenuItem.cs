@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-public class DisplayConsolmenuItem : MonoBehaviour
+public class DisplayConsoleMenuItem : MonoBehaviour
 {
     [MenuItem("Tools/Log Console")]
     static void LogConsole()

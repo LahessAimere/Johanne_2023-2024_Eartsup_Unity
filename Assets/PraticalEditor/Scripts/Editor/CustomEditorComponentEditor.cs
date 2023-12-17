@@ -1,3 +1,4 @@
+using System;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,9 +8,8 @@ public class CustomEditorComponentEditor : Editor
 {
     private SerializedProperty _sampleTextProp;
     private SerializedProperty _sceneIndexProp;
-    
-    
-    void OnEnable()
+
+    private void OnEnable()
     {
         _sampleTextProp = serializedObject.FindProperty ("_sampleText");
         _sceneIndexProp = serializedObject.FindProperty ("_sceneIndex");

@@ -7,7 +7,6 @@ public class CustomComponent : MonoBehaviour
     [SerializeField, Scene] private int _scene;
 
     [ContextMenu("Load Scene")]
-
     private void LoadScene()
     {
         if (Application.isPlaying)

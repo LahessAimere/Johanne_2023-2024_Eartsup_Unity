@@ -172,7 +172,7 @@ MonoBehaviour:
     ManaValue: 0
   _sampleText: Trop dur
   _sceneName: PracticalEditorScene
-  _sceneIndex: 0
+  _sceneIndex: 1
 --- !u!1 &783238356
 GameObject:
   m_ObjectHideFlags: 0
