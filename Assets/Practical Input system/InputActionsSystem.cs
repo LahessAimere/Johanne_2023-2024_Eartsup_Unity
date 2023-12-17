@@ -200,6 +200,15 @@ public partial class @InputActionsSystem: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""CloseMenu"",
+                    ""type"": ""Button"",
+                    ""id"": ""93bd59e1-b4df-4fb7-b63b-fe8a7003cd0f"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -312,6 +321,17 @@ public partial class @InputActionsSystem: IInputActionCollection2, IDisposable
                     ""action"": ""ToggleActivate"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""06918832-59fd-4176-8fdb-692c1243f146"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CloseMenu"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -355,6 +375,7 @@ public partial class @InputActionsSystem: IInputActionCollection2, IDisposable
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigation = m_UI.FindAction("Navigation", throwIfNotFound: true);
         m_UI_ToggleActivate = m_UI.FindAction("ToggleActivate", throwIfNotFound: true);
+        m_UI_CloseMenu = m_UI.FindAction("CloseMenu", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -480,12 +501,14 @@ public partial class @InputActionsSystem: IInputActionCollection2, IDisposable
     private List<IUIActions> m_UIActionsCallbackInterfaces = new List<IUIActions>();
     private readonly InputAction m_UI_Navigation;
     private readonly InputAction m_UI_ToggleActivate;
+    private readonly InputAction m_UI_CloseMenu;
     public struct UIActions
     {
         private @InputActionsSystem m_Wrapper;
         public UIActions(@InputActionsSystem wrapper) { m_Wrapper = wrapper; }
         public InputAction @Navigation => m_Wrapper.m_UI_Navigation;
         public InputAction @ToggleActivate => m_Wrapper.m_UI_ToggleActivate;
+        public InputAction @CloseMenu => m_Wrapper.m_UI_CloseMenu;
         public InputActionMap Get() { return m_Wrapper.m_UI; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -501,6 +524,9 @@ public partial class @InputActionsSystem: IInputActionCollection2, IDisposable
             @ToggleActivate.started += instance.OnToggleActivate;
             @ToggleActivate.performed += instance.OnToggleActivate;
             @ToggleActivate.canceled += instance.OnToggleActivate;
+            @CloseMenu.started += instance.OnCloseMenu;
+            @CloseMenu.performed += instance.OnCloseMenu;
+            @CloseMenu.canceled += instance.OnCloseMenu;
         }
 
         private void UnregisterCallbacks(IUIActions instance)
@@ -511,6 +537,9 @@ public partial class @InputActionsSystem: IInputActionCollection2, IDisposable
             @ToggleActivate.started -= instance.OnToggleActivate;
             @ToggleActivate.performed -= instance.OnToggleActivate;
             @ToggleActivate.canceled -= instance.OnToggleActivate;
+            @CloseMenu.started -= instance.OnCloseMenu;
+            @CloseMenu.performed -= instance.OnCloseMenu;
+            @CloseMenu.canceled -= instance.OnCloseMenu;
         }
 
         public void RemoveCallbacks(IUIActions instance)
@@ -556,5 +585,6 @@ public partial class @InputActionsSystem: IInputActionCollection2, IDisposable
     {
         void OnNavigation(InputAction.CallbackContext context);
         void OnToggleActivate(InputAction.CallbackContext context);
+        void OnCloseMenu(InputAction.CallbackContext context);
     }
 }

@@ -25,7 +25,6 @@ public class UIMenu : MonoBehaviour
     {
         if (allChildrenDisabled)
         {
-            //Time.timeScale = 1.0f;
             Transform firstChild = transform.GetChild(0);
             if (firstChild != null)
             {
@@ -34,7 +33,6 @@ public class UIMenu : MonoBehaviour
         }
         else
         {
-            //Time.timeScale = 0.0f;
             foreach (Transform child in transform)
             {
                 child.gameObject.SetActive(false);

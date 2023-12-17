@@ -1,15 +1,18 @@
+using System;
 using UnityEngine;
 
 public class CharacterBehavior : MonoBehaviour
 {
+    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private GameObject _menu;
+    [SerializeField] private GameObject _bulletPrefab;
+    [SerializeField] private float rotationSpeed = 5f;
+    
     private InputActionsSystem _controls;
     private Vector2 _moveInput;
     private float _rotationInput;
-    [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private float rotationSpeed = 5f;
-    private bool _isMenuOpen = false;
-    [SerializeField] private GameObject _menu;
-    [SerializeField] private GameObject _bulletPrefab;
+    private bool _isMenuOpen = true;
+    
 
     private void OnEnable()
     {
@@ -30,6 +33,12 @@ public class CharacterBehavior : MonoBehaviour
         _controls.Gameplay.Move.performed += ctx => Move();
         _controls.Gameplay.Shoot.performed += ctx => Shoot();
         _controls.Gameplay.OpenMenu.performed += ctx => Menu();
+    }
+
+    private void Start()
+    {
+        _controls.Gameplay.Move.Disable();
+        _controls.Gameplay.Shoot.Disable();
     }
 
     private void Update()
@@ -56,26 +65,19 @@ public class CharacterBehavior : MonoBehaviour
     
     private void Menu()
     {
-        Debug.Log("Menu opened!");
         _isMenuOpen = !_isMenuOpen;
 
         if (_isMenuOpen)
         {
-            OpenMenu();
+            _menu.gameObject.SetActive(true);
+            _controls.Gameplay.Move.Disable();
+            _controls.Gameplay.Shoot.Disable();
         }
         else
         {
-            CloseMenu();
+            _menu.gameObject.SetActive(false);
+            _controls.Gameplay.Move.Enable();
+            _controls.Gameplay.Shoot.Enable();
         }
-    }
-    
-    private void OpenMenu()
-    {
-        _menu.gameObject.SetActive(true);
-    }
-
-    private void CloseMenu()
-    {
-        _menu.gameObject.SetActive(false);
     }
 }
