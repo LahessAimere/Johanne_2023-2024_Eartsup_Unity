@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class CharacterBehavior : MonoBehaviour
@@ -6,7 +5,9 @@ public class CharacterBehavior : MonoBehaviour
     private InputActionsSystem _controls;
     private Vector2 _moveInput;
     private float _rotationInput;
-    private bool isMenuOpen = false;
+    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float rotationSpeed = 5f;
+    private bool _isMenuOpen = false;
     [SerializeField] private GameObject _menu;
     [SerializeField] private GameObject _bulletPrefab;
 
@@ -31,25 +32,34 @@ public class CharacterBehavior : MonoBehaviour
         _controls.Gameplay.OpenMenu.performed += ctx => Menu();
     }
 
+    private void Update()
+    {
+        Move();
+    }
+
     private void Move()
     {
-        Vector3 move = new Vector3(_moveInput.x, _moveInput.y, 0f);
-        transform.Translate(move * Time.deltaTime, Space.World);
+        _moveInput = _controls.Gameplay.Move.ReadValue<Vector2>();
+        Vector3 moveDirection = new Vector3(_moveInput.x, _moveInput.y, 0f).normalized;
+        transform.Translate(moveDirection * moveSpeed * Time.deltaTime, Space.World);
+        
+        if (_moveInput.magnitude > 0.1f)
+        {
+            transform.up = Vector3.Lerp(transform.up, moveDirection, rotationSpeed * Time.deltaTime);
+        }
     }
 
     private void Shoot()
     { 
-        float bulletSpeed = 10f; 
         Instantiate(_bulletPrefab, transform.position, transform.rotation);
-        _bulletPrefab.transform.Translate(Vector2.right * bulletSpeed * Time.deltaTime);
     }
     
     private void Menu()
     {
         Debug.Log("Menu opened!");
-        isMenuOpen = !isMenuOpen;
+        _isMenuOpen = !_isMenuOpen;
 
-        if (isMenuOpen)
+        if (_isMenuOpen)
         {
             OpenMenu();
         }
@@ -62,12 +72,10 @@ public class CharacterBehavior : MonoBehaviour
     private void OpenMenu()
     {
         _menu.gameObject.SetActive(true);
-        Time.timeScale = 0.0f;
     }
 
     private void CloseMenu()
     {
         _menu.gameObject.SetActive(false);
-        Time.timeScale = 1.0f;
     }
 }

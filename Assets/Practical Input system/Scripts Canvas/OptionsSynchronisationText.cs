@@ -3,37 +3,20 @@ using UnityEngine.UI;
 
 public class OptionsSynchronisationText : MonoBehaviour
 {
-    public Toggle Toggle;
-    public Text StatusText;
-    private InputActionsSystem _controls;
+    private Toggle _toggle;
+    private Text _statusText;
 
-    private void OnEnable()
+    private void Update()
     {
-        _controls.UI.Enable();
-    }
-
-    private void OnDisable()
-    {
-        _controls.UI.Disable();
-    }
-
-    private void Awake()
-    {
-        _controls = new InputActionsSystem();
-        _controls.UI.ToggleActivate.performed += ctx => OnTogglePressed();
-    }
-
-    private void OnTogglePressed()
-    {
-        if (Toggle != null && StatusText != null)
+        if (_toggle != null && _statusText != null)
         {
-            if (!Toggle.isOn)
+            if (_toggle.isOn)
             {
-                StatusText.text = "Enable";
+                _statusText.text = "Enable";
             }
             else
             {
-                StatusText.text = "Disable";
+                _statusText.text = "Disable";
             }
         }
     }

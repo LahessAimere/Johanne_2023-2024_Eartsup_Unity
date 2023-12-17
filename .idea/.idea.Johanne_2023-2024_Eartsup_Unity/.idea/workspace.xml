@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="144a1520-677b-4178-af7d-8b383aa0ed12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scripts/BulletSpeed.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scripts/BulletSpeed.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/InputActionsSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/InputActionsSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/InputActionsSystem.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/InputActionsSystem.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/Prefabs/Bullet.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scene/PraticalInputSystem.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scene/PraticalInputSystem.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scripts/CharacterConduct.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scripts/CharacterConduct.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scripts Canvas/OptionsSynchronisationText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scripts Canvas/OptionsSynchronisationText.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scripts Canvas/OptionsVolumeSound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scripts Canvas/OptionsVolumeSound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scripts Canvas/ScrollNavigationSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scripts Canvas/ScrollNavigationSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scripts/CharacterBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scripts/CharacterBehavior.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scripts/UIMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scripts/UIMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Theorical Input System &amp; Events/Scripts/PracticalEvent/CharacterBehavior.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Theorical Input System &amp; Events/Scripts/PracticalEvent/CharacterBehavior.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/Desktop/Mathys_E-artsup-2rdYear-Input-System/Assets/InputSystem_Exo/ScriptableEventUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Practical Input system/Scripts/BulletSpeed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Practical Input system/Scripts/CharacterBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -134,6 +135,8 @@
       <workItem from="1702387346558" duration="70000" />
       <workItem from="1702407833506" duration="2694000" />
       <workItem from="1702417338061" duration="1177000" />
+      <workItem from="1702819195149" duration="115000" />
+      <workItem from="1702819504644" duration="3118000" />
     </task>
     <servers />
   </component>

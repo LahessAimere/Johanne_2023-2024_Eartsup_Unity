@@ -4,20 +4,21 @@ using UnityEngine.EventSystems;
 public class ScrollNavigationSystem : MonoBehaviour
 {
     private GameObject _selectedObject;
-    public RectTransform Content;
-    public float ScrollSpeed = 100f;
+    [SerializeField] private RectTransform _rectTransformContent;
+    private float _scrollSpeed = 100f;
 
     void Update()
     {
+        // Récupérez l'objet actuellement sélectionné
         _selectedObject = EventSystem.current.currentSelectedGameObject;
         
         if (_selectedObject != null)
         {
-            if (_selectedObject.transform.IsChildOf(Content))
+            if (_selectedObject.transform.IsChildOf(_rectTransformContent))
             {
                 float targetPositionY = -_selectedObject.transform.localPosition.y;
                 
-                Content.localPosition = Vector3.Lerp(Content.localPosition, new Vector3(Content.localPosition.x, targetPositionY - 30, Content.localPosition.z), Time.deltaTime * ScrollSpeed);
+                _rectTransformContent.localPosition = Vector3.Lerp(_rectTransformContent.localPosition, new Vector3(_rectTransformContent.localPosition.x, targetPositionY - 30, _rectTransformContent.localPosition.z), Time.deltaTime * _scrollSpeed);
             }
         }
     }
