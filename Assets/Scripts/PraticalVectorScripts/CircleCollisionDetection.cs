@@ -18,7 +18,7 @@ public class CircleCollisionDetection : MonoBehaviour
 
         Vector3 circleDistanceOtherCircle = _otherCircle.transform.position - transform.position;
         
-        if (circleDistanceOtherCircle.sqrMagnitude <= (_radius * _radius) + (_radiusOtherCircle * _radiusOtherCircle))
+        if (circleDistanceOtherCircle.sqrMagnitude <= (_radius + _radius) * (_radiusOtherCircle + _radiusOtherCircle))
         {
             Gizmos.color = Color.green;
         }
