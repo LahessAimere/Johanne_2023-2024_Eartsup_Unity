@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="144a1520-677b-4178-af7d-8b383aa0ed12" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scripts Canvas/OptionsSynchronisationText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scripts Canvas/OptionsSynchronisationText.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scripts Canvas/ScrollNavigationSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scripts Canvas/ScrollNavigationSystem.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Practical Input system/ScriptableEventUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Practical Input system/Scripts/BulletSpeed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Practical Input system/Scripts/CharacterBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2WI7M6VRjt8D61HWRLaJz85xoik" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;InputSystem&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\johan\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\johan\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\johan\\AppData\\Local\\Symbols\\src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\johan\Documents\Unity\Cours Gaetan\Johanne_2023-2024_Eartsup_Unity&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\johan\Documents\Unity\Cours Gaetan\Johanne_2023-2024_Eartsup_Unity" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\johan\Documents\Unity\Cours Gaetan\Johanne_2023-2024_Eartsup_Unity&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\johan\Documents\Unity\Cours Gaetan\Johanne_2023-2024_Eartsup_Unity" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="144a1520-677b-4178-af7d-8b383aa0ed12" name="Changes" comment="" />
+      <created>1696408191282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696408191282</updated>
+      <workItem from="1696408195260" duration="7581000" />
+      <workItem from="1696421857145" duration="53000" />
+      <workItem from="1696421930638" duration="868000" />
+      <workItem from="1696422820469" duration="8591000" />
+      <workItem from="1696494018433" duration="12495000" />
+      <workItem from="1696597118647" duration="576000" />
+      <workItem from="1696839245609" duration="9071000" />
+      <workItem from="1696936940762" duration="11630000" />
+      <workItem from="1697011555476" duration="21645000" />
+      <workItem from="1697038392832" duration="243000" />
+      <workItem from="1698073076574" duration="1072000" />
+      <workItem from="1698074174741" duration="594000" />
+      <workItem from="1698074919148" duration="2209000" />
+      <workItem from="1698081524164" duration="722000" />
+      <workItem from="1698328879460" duration="312000" />
+      <workItem from="1698329221168" duration="18000" />
+      <workItem from="1698329257498" duration="631000" />
+      <workItem from="1699358872264" duration="593000" />
+      <workItem from="1701256977569" duration="7552000" />
+      <workItem from="1702287096698" duration="3644000" />
+      <workItem from="1702293040401" duration="2600000" />
+      <workItem from="1702331201612" duration="10395000" />
+      <workItem from="1702387346558" duration="70000" />
+      <workItem from="1702407833506" duration="2694000" />
+      <workItem from="1702417338061" duration="1177000" />
+      <workItem from="1702819195149" duration="115000" />
+      <workItem from="1702819504644" duration="3118000" />
+      <workItem from="1702822966007" duration="4304000" />
+      <workItem from="1702827460139" duration="3522000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/TheoricalEvent/Scripts/CharacterBehavior.cs</url>
+          <line>42</line>
+          <properties documentPath="C:\Users\johan\Documents\Unity\Cours Gaetan\Johanne_2023-2024_Eartsup_Unity\Assets\TheoricalEvent\Scripts\CharacterBehavior.cs" initialLine="42" containingFunctionPresentation="Method 'LoseHealth'" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
