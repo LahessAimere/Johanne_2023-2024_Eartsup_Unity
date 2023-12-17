@@ -4,8 +4,9 @@ using UnityEngine.Serialization;
 
 public class ScrollNavigationSystem : MonoBehaviour
 {
-    private GameObject _selectedObject;
     [SerializeField] private RectTransform _rectTransformContent;
+    
+    private GameObject _selectedObject;
     private float _scrollSpeed = 100f;
 
     void Update()
