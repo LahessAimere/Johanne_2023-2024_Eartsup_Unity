@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="144a1520-677b-4178-af7d-8b383aa0ed12" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Johanne_2023-2024_Eartsup_Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scripts Canvas/OptionsSynchronisationText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scripts Canvas/OptionsSynchronisationText.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scene/PraticalInputSystem.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scene/PraticalInputSystem.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scripts Canvas/ScrollNavigationSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scripts Canvas/ScrollNavigationSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scripts/CharacterBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scripts/CharacterMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Practical Input system/Scripts/CharacterBehavior.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Practical Input system/Scripts/CharacterMovement.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Theorical Input System &amp; Events/Scripts/PracticalEvent/ColliderEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Theorical Input System &amp; Events/Scripts/PracticalEvent/ColliderEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Theorical Input System &amp; Events/Scripts/PracticalEvent/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Theorical Input System &amp; Events/Scripts/PracticalEvent/HealthBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +23,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Practical Input system/ScriptableEventUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Practical Input system/Scripts/BulletSpeed.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Practical Input system/Scripts/CharacterBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Practical Input system/Scripts/CharacterMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Practical Input system/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -131,6 +136,8 @@
       <workItem from="1702819504644" duration="3118000" />
       <workItem from="1702822966007" duration="4304000" />
       <workItem from="1702827460139" duration="3522000" />
+      <workItem from="1703071421116" duration="3000" />
+      <workItem from="1703071436284" duration="5442000" />
     </task>
     <servers />
   </component>

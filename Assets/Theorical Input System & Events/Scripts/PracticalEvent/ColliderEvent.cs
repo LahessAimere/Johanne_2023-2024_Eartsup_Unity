@@ -6,7 +6,7 @@ using UnityEngine.Serialization;
 public class ColliderEvent : MonoBehaviour
 {
     [SerializeField] private UnityEvent _unityEvent;
-    private CharacterBehavior _characterBehavior;
+    private CharacterMovement _characterMovement;
     public void OnTriggerEnter(Collider other)
     {
         _unityEvent?.Invoke();

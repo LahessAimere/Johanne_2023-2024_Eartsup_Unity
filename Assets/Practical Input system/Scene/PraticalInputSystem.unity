@@ -154,6 +154,8 @@ GameObject:
   - component: {fileID: 453067475}
   - component: {fileID: 453067476}
   - component: {fileID: 453067477}
+  - component: {fileID: 453067478}
+  - component: {fileID: 453067479}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -299,10 +301,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  _menu: {fileID: 1789041398}
+  rotationSpeed: 100
+--- !u!114 &453067478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453067472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67d09ad0047fe9f4b963b731786a70bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   _bulletPrefab: {fileID: 5697887237834026026, guid: f918ffe18b751854fa75e7ff92c89d5a,
     type: 3}
-  rotationSpeed: 100
+--- !u!114 &453067479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453067472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 727c01a6e1575754da3e330d4c46b139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _menu: {fileID: 1789041398}
 --- !u!1 &584453634
 GameObject:
   m_ObjectHideFlags: 0

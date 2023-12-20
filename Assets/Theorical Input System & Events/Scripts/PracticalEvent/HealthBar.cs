@@ -4,7 +4,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
 public class HealthBar : MonoBehaviour
 { 
-    private CharacterBehavior _characterBehavior;
+    private CharacterMovement _characterMovement;
     private Image _image;
 
     private void Awake()
