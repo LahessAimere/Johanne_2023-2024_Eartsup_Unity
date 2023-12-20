@@ -9,7 +9,7 @@ public class ScrollNavigationSystem : MonoBehaviour
     private GameObject _selectedObject;
     private float _scrollSpeed = 100f;
 
-    void Update()
+    private void Update()
     {
         // Récupérez l'objet actuellement sélectionné
         _selectedObject = EventSystem.current.currentSelectedGameObject;
@@ -19,8 +19,9 @@ public class ScrollNavigationSystem : MonoBehaviour
             if (_selectedObject.transform.IsChildOf(_rectTransformContent))
             {
                 float targetPositionY = -_selectedObject.transform.localPosition.y;
+                Vector3 rectTransformContentNewLocalPosition = new Vector3(_rectTransformContent.localPosition.x, targetPositionY - 30, _rectTransformContent.localPosition.z);
                 
-                _rectTransformContent.localPosition = Vector3.Lerp(_rectTransformContent.localPosition, new Vector3(_rectTransformContent.localPosition.x, targetPositionY - 30, _rectTransformContent.localPosition.z), Time.deltaTime * _scrollSpeed);
+                _rectTransformContent.localPosition = Vector3.Lerp(_rectTransformContent.localPosition, rectTransformContentNewLocalPosition, Time.deltaTime * _scrollSpeed);
             }
         }
     }
