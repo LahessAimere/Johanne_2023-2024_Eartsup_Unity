@@ -4,7 +4,7 @@ Shader "Unlit/UnlitShaderBuff"
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-        _BaseColor("Buff Color", Color) = (1, 1, 1, 1)
+        _BuffColor("Buff Color", Color) = (1, 1, 1, 1)
         _BuffPower ("Buff Power", Range(0.0, 1.0)) = 1
     }
     SubShader
@@ -23,18 +23,22 @@ Shader "Unlit/UnlitShaderBuff"
             {
                 float4 positionOS   : POSITION;
                 float2 uv           : TEXCOORD0;
+                half4 color         : COLOR;
             };
 
             struct Varyings
             {
                 float4 positionHCS  : SV_POSITION;
                 float2 uv           : TEXCOORD0;
+                half4 color         : COLOR;
+
             };
             TEXTURE2D(_MainTex);
             SAMPLER(sampler_MainTex);
             CBUFFER_START(UnityPerMaterial)
             float4 _MainTex_ST;
-            half4 _BaseColor;            
+            half4 _BuffColor;
+            float _BuffPower;
             CBUFFER_END
 
             Varyings vert(Attributes IN)
@@ -42,13 +46,17 @@ Shader "Unlit/UnlitShaderBuff"
                 Varyings OUT;
                 OUT.positionHCS = TransformObjectToHClip(IN.positionOS.xyz);
                 OUT.uv = TRANSFORM_TEX(IN.uv, _MainTex);
+                OUT.color = IN.color;
                 return OUT;
             }
 
             half4 frag(Varyings IN) : SV_Target
             {
-                half4 color = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, IN.uv);
-                return color * _BaseColor;
+                half4 TextureColor = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, IN.uv);
+                half4 InvertTextureColor = 1 - TextureColor;
+                half4 color = IN.color + (_BuffColor - IN.color) * _BuffPower;
+                TextureColor = lerp(TextureColor, InvertTextureColor, _BuffPower) + color;
+                return TextureColor;
             }
             ENDHLSL
         }

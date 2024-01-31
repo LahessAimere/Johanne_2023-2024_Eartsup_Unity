@@ -21,29 +21,35 @@ Shader "Unlit/UnlitShaderBubbleGum"
 
             struct Attributes
             {
-                float4 positionOS   : POSITION;                 
+                float4 positionOS   : POSITION;
+                half4 color         : COLOR;
             };
 
             struct Varyings
             {
                 float4 positionHCS  : SV_POSITION;
+                half4 color         : COLOR;
             };
             
             CBUFFER_START(UnityPerMaterial)
                 half4 _MainColor;
                 half4 _FlashColor;
+                int _FlashFrenquency;
+                int _Displacement;
             CBUFFER_END
 
             Varyings vert(Attributes IN)
             {
                 Varyings OUT;
-                OUT.positionHCS = TransformObjectToHClip(IN.positionOS.xyz);
+                OUT.positionHCS = TransformObjectToHClip(IN.positionOS.xyz * sin(_Time.y) * 2);
+                OUT.color = IN.color;
                 return OUT;
             }
 
-            half4 frag() : SV_Target
+            half4 frag(Varyings IN) : SV_Target
             {
-                return _MainColor;
+                half4 Color = _MainColor + (_FlashColor - _MainColor) * _FlashFrenquency;
+                return Color;
             }
             ENDHLSL
         }
