@@ -1,57 +1,64 @@
-Shader "Unlit/UnlitSahderChecker"
+Shader "Unlit/UnlitShaderChecker"
 {
     Properties
     {
         _FirstGrayScale ("First Grayscale", Range(0.0, 1.0)) = 0.118
         _SecondGrayScale ("Second Grayscale", Range(0.0, 1.0)) = 0.316
-        _RepeatValue ("RepeatValue", Int) = 5
+        _RepeatValue ("Repeat Value", Int) = 5
     }
     SubShader
     {
         Tags { "RenderType"="Opaque" }
-        LOD 100
-
+        
         Pass
         {
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            // make fog work
             #pragma multi_compile_fog
 
             #include "UnityCG.cginc"
 
-            struct appdata
+            CBUFFER_START(UnityPerMaterial)
+            float _RepeatValue;
+            float _FirstGrayScale;
+            float _SecondGrayScale;
+            CBUFFER_END
+
+            struct Attributes
             {
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
             };
 
-            struct v2f
+            struct Varyings
             {
                 float2 uv : TEXCOORD0;
-                UNITY_FOG_COORDS(1)
                 float4 vertex : SV_POSITION;
             };
 
             sampler2D _MainTex;
             float4 _MainTex_ST;
 
-            v2f vert (appdata v)
+            Varyings vert(Attributes IN)
             {
-                v2f o;
-                o.vertex = UnityObjectToClipPos(v.vertex);
-                o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-                UNITY_TRANSFER_FOG(o,o.vertex);
-                return o;
+                Varyings OUT;
+                OUT.vertex = UnityObjectToClipPos(IN.vertex.xyz);
+                OUT.uv = IN.uv;
+                return OUT;
             }
 
-            fixed4 frag (v2f i) : SV_Target
+            half4 frag (Varyings IN) : SV_Target
             {
-                // sample the texture
-                fixed4 col = tex2D(_MainTex, i.uv);
-                // apply fog
-                UNITY_APPLY_FOG(i.fogCoord, col);
+                float x = round(frac(IN.uv.x * _RepeatValue));
+                float y = round(frac(IN.uv.y * _RepeatValue));
+
+                int checker = (x + y) % 2;
+    
+                half4 col = _FirstGrayScale;
+                if (checker != 0)
+                col = _SecondGrayScale;
+                
                 return col;
             }
             ENDCG

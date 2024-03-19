@@ -63,8 +63,9 @@ Shader "UnlitShaderTexture"
                 float2 UvCalcul = float2(0,1);
                 half4 color = SAMPLE_TEXTURE2D(_BaseMap, sampler_BaseMap, IN.uv + (UvCalcul * _Time.x));
                 float fresnel = pow(1.0 - saturate(dot(normalize(IN.normal), normalize(viewDirection))), _FresnelPower);
-                float3 interpolatedColor = lerp(_FireColor1.rgb, _FresnelColor.rgb, color.xyz);
-                return half4(interpolatedColor, 1.0) + fresnel * _FireColor2;
+                float3 interpolatedColor = lerp(_FireColor1.rgb, _FireColor2.rgb, color.xyz);
+                half3 finalColor = interpolatedColor + fresnel * _FresnelColor.rgb;
+                return half4(finalColor, 1.0);
             }
             ENDHLSL
       }  
