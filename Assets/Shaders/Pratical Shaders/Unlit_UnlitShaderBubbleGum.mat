@@ -32,6 +32,7 @@ Material:
     - _Diplac: 1
     - _Displacement: 1
     - _FlashFrenquency: 1
+    - _FlashFrequency: 1
     m_Colors:
     - _FireColor1: {r: 1, g: 1, b: 1, a: 1}
     - _FlashColor: {r: 1, g: 0, b: 0.8119898, a: 1}

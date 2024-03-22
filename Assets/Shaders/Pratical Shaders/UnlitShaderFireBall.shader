@@ -6,7 +6,7 @@ Shader "UnlitShaderTexture"
         [HDR] _FireColor1("Fire Color 1", Color) = (1, 1, 1, 1)
         [HDR] _FireColor2("Fire Color 2", Color) = (1, 1, 1, 1)
         [HDR] _FresnelColor("Fresnel Color", Color) = (1, 1, 1, 1)
-        _FresnelPower ("Fresnel Power", Range(0.0, 1.0)) = 0.5
+        _FresnelPower ("Fresnel Power", Range(0.0, 10)) = 5
     }
 
     SubShader

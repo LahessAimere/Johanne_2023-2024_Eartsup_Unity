@@ -4,7 +4,7 @@ Shader "Unlit/UnlitShaderBubbleGum"
     {
         _MainColor("Main Color", Color) = (1, 1, 1, 1)
         [HDR] _FlashColor("Flash Color 1", Color) = (1, 1, 1, 1)
-        _FlashFrenquency("Flash Franquency", Int) = 1
+        _FlashFrequency("Flash Franquency", Int) = 1
         _Displacement("Displacement", Int) = 1
     }
     SubShader
@@ -34,21 +34,22 @@ Shader "Unlit/UnlitShaderBubbleGum"
             CBUFFER_START(UnityPerMaterial)
                 half4 _MainColor;
                 half4 _FlashColor;
-                int _FlashFrenquency;
+                int _FlashFrequency;
                 int _Displacement;
             CBUFFER_END
 
             Varyings vert(Attributes IN)
             {
                 Varyings OUT;
-                OUT.positionHCS = TransformObjectToHClip(IN.positionOS.xyz * sin(_Time.y) * 2);
-                OUT.color = IN.color;
+                OUT.positionHCS = TransformObjectToHClip(IN.positionOS.xyz * sin(_Time.y) * _Displacement);
+                OUT.color = IN.color * _MainColor;
                 return OUT;
             }
 
             half4 frag(Varyings IN) : SV_Target
             {
-                half4 Color = _MainColor + (_FlashColor - _MainColor) * _FlashFrenquency;
+                half4 Color = _MainColor + (_FlashColor - _MainColor) * sin(_Time.y) * _FlashFrequency;
+
                 return Color;
             }
             ENDHLSL

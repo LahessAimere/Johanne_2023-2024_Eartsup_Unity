@@ -12,12 +12,12 @@ Shader "Unlit/UnlitShaderChecker"
         
         Pass
         {
-            CGPROGRAM
+            HLSLPROGRAM
             #pragma vertex vert
             #pragma fragment frag
             #pragma multi_compile_fog
 
-            #include "UnityCG.cginc"
+            #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
             CBUFFER_START(UnityPerMaterial)
             float _RepeatValue;
@@ -37,13 +37,10 @@ Shader "Unlit/UnlitShaderChecker"
                 float4 vertex : SV_POSITION;
             };
 
-            sampler2D _MainTex;
-            float4 _MainTex_ST;
-
             Varyings vert(Attributes IN)
             {
                 Varyings OUT;
-                OUT.vertex = UnityObjectToClipPos(IN.vertex.xyz);
+                OUT.vertex = TransformObjectToHClip(IN.vertex.xyz);
                 OUT.uv = IN.uv;
                 return OUT;
             }
@@ -57,11 +54,13 @@ Shader "Unlit/UnlitShaderChecker"
     
                 half4 col = _FirstGrayScale;
                 if (checker != 0)
-                col = _SecondGrayScale;
+                {
+                    col = _SecondGrayScale;
+                }
                 
                 return col;
             }
-            ENDCG
+            ENDHLSL
         }
     }
 }
